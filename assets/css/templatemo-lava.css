@@ -85,6 +85,7 @@ html, body {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 a {
@@ -922,9 +923,15 @@ region
 
 /*
 ---------------------------------------------
-timeline
+gallery
 ---------------------------------------------
 */
+
+.gallery-item {
+  width: 200px;
+  padding: 5px;
+}
+
 
 /*
 ---------------------------------------------
@@ -956,8 +963,7 @@ promotion
 }
 
 #promotion .right-text ul li {
-  display: inline-block;
-  margin-bottom: 60px;
+  margin-bottom: 22px;
 }
 
 #promotion .right-text ul li:last-child {
@@ -1086,7 +1092,27 @@ testimonials
     display: none!important;
   }
 }
+/*
+---------------------------------------------
+Mechanism
+---------------------------------------------
+*/
+.accordion-1 .accordion-button {
+  padding-left: 16px;
+  font-size: 20px;
+}
+.accordion-body h4 {
+  margin-top: 16px;
+}
 
+/* 
+---------------------------------------------
+Prize
+--------------------------------------------- 
+*/
+.medal-icon {
+  max-width: 30px;
+}
 /* 
 ---------------------------------------------
 footer
